@@ -1,0 +1,46 @@
+.card {
+  position: relative;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 32.5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.Image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease-in-out;
+}
+.strip {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  background-color: #f8f8f8;
+}
+/* Let's Style an Emojies to the Card's */
+.emojies-div {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  background-color: rgb(31, 29, 29);
+  border-radius: 20%;
+}
+.emojies-div :hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  background-color: #f8f8f8;
+}

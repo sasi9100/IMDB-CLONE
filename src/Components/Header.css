@@ -1,0 +1,23 @@
+@import "tailwindcss";
+.Logo {
+  width: 80px;
+}
+/* NAV BAR DIV */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid lightgrey;
+}
+/* loging button */
+.login-btn {
+  margin-left: auto;
+  margin-right: 20px;
+  width: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
+  font-weight: 800;
+}
+.login-btn:hover {
+  text-shadow: 0 0 5px #dc2626, 0 0 2px #dc2626;
+}
+
