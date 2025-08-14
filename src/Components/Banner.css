@@ -1,0 +1,22 @@
+.banner {
+  height: 75vh;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  width: 100%;
+}
+.Stripe {
+  position: absolute;
+  bottom: 0; /* 👈 This places it at the bottom of the image */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Optional: background behind text */
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+}
+.Trending-Movies-Heading {
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}

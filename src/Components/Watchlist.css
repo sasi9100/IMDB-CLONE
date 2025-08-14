@@ -1,0 +1,58 @@
+.Input-Div {
+  display: flex;
+  place-content: center;
+  margin-top: 20px;
+}
+.Input-Box {
+  background-color: #c5d3e8;
+  height: 2rem;
+  padding: 10px;
+}
+/* Styling for the table */
+.table-div {
+  display: flex;
+  place-content: center;
+}
+.table-tag {
+  border: 2px solid #adc4ce;
+  margin-top: 30px;
+}
+.table-children-head {
+  border: 2px solid #adc4ce;
+  width: 8cm;
+}
+.row-2 {
+  text-align: center;
+  border: 2px solid #adc4ce;
+}
+
+/* Styling For Images */
+.Image-1 {
+  height: 8rem;
+  width: 6rem;
+  border-radius: 0%;
+  margin-left: 6.5rem;
+  padding: 10px;
+}
+/* Styling For Three Button's */
+.Three-Buttons {
+  display: flex;
+  place-content: center;
+}
+.btn {
+  margin: 20px 0px 0px 20px;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 3%;
+  transition: all 0.3s ease; /* Smooth effect */
+  cursor: pointer;
+  background-color: #c5d3e8;
+  border-radius: 5%;
+}
+.btn:hover {
+  background-color: #799eff;
+  color: aliceblue;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-family: "Times New Roman", Times, serif;
+}

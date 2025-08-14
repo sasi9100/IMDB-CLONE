@@ -1,0 +1,27 @@
+.stripe {
+  background-color: grey;
+  width: auto;
+  margin: 20px 0;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.left-arrow,
+.right-arrow {
+  color: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+.left-arrow:hover {
+  cursor: pointer;
+  transform: scale(1.2); /* Slight zoom */
+}
+.right-arrow:hover {
+  cursor: pointer;
+  transform: scale(1.2); /* Slight zoom */
+}
